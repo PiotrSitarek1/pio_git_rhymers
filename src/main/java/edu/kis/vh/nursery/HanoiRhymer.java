@@ -1,6 +1,6 @@
 package edu.kis.vh.nursery;
 
-public class HanoiRhymer extends defaultCountingOutRhymer {
+public class HanoiRhymer extends DefaultCountingOutRhymer {
     //5 12 14 15
     // alt + > zmienia okno na nastepny otwarty plik w kompilatorze
     int totalRejected = 0;
