@@ -19,10 +19,6 @@ public class DefaultCountingOutRhymer {
         return MAX_SIZE;
     }
 
-    public void setCapacity(int a) {
-       CAPACITY = a;
-    }
-
     public int getTotal() {
         return total;
     }
