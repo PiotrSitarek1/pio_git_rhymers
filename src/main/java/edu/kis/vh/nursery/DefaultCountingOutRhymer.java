@@ -25,6 +25,10 @@ public class DefaultCountingOutRhymer {
 
     private int total = getStartSizeValue();
 
+    /**
+     * Jezeli tablica numbers nie jest pelna, dodawana jest do niej zmienna in
+     * @param in zmienna dodawana do tablicy numbers
+     */
     public void countIn(int in) {
         if (!isFull())
             numbers[++total] = in;
